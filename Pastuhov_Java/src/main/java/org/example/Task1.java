@@ -17,14 +17,14 @@ public class Task1 {
             String s2 = bufferedReader.readLine();
             a = Integer.parseInt(s1);
             b = Integer.parseInt(s2);
-            int result1 = a + b;
-            int result2 = a - b;
-            int result3 = a * b;
-            int result4 = a / b;
-            System.out.printf("a + b = %s%n", result1);
-            System.out.printf("a - b = %s%n", result2);
-            System.out.printf("a * b = %s%n", result3);
-            System.out.printf("a / b = %s%n", result4);
+            int sum = a + b;
+            int subtraction = a - b;
+            int multiplication = a * b;
+            int division = a / b;
+            System.out.printf("a + b = %s%n", sum);
+            System.out.printf("a - b = %s%n", subtraction);
+            System.out.printf("a * b = %s%n", multiplication);
+            System.out.printf("a / b = %s%n", division);
             System.out.print("Результат сравнения a и b: ");
             if (a < b) {
                 System.out.println("a меньше b");
